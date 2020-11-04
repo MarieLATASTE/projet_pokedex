@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background: rgb(0,0,0);
+  background: linear-gradient(135deg, rgba(0,0,0,0.767402376910017) 100%, rgba(36,36,37,1) 150%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nosifer', cursive;
+  margin: 0;
+}
+header{
+  margin-top: 7.5%;
+  display: flex;
+  background-color: #b42c2e;
+  box-shadow: inset 0 0 60px 5px #300204,
+  3px 3px 5px 0 #ccc;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  width: 75%;
+  height: 25%;
+}
+header img{
+  width: 6.5rem;
+}
+header img:hover{
+  transform: scale(1.2);
+  transition: .5s;
+}
+.circles{
+  display: inline-flex;
+  margin-left: 2rem;
+  margin-top: 1.5%;
+  width: 80%;
+}
+.circle1{
+  width: 1.5rem;
+  height: 1.5rem;
+  background: rgb(238,238,238);
+  background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(255,7,7,1) 100%);
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+.circle2{
+  width: 1.5rem;
+  height: 1.5rem;
+  background: rgb(238,238,238);
+  background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(255,231,13,1) 100%);
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+.circle3{
+  width: 1.5rem;
+  height: 1.5rem;
+  background: rgb(238,238,238);
+  background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(19,225,15,1) 100%);
+  border-radius: 50%;
+}
+
+.pokemon{
+  width: 75%;
+  height: 100%;
+}
+.poke-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: center;
+  /*max-width: 1200px;*/
+  border-radius: 20px;
+  margin-top: 10%; 
+  background-color: #b42c2e;
+  box-shadow: inset 0 0 60px 5px #300204,
+  3px 3px 5px 0 #ccc;
+}
+
+.prokemon{
+  margin-top: 3%;
+  background: rgb(9,8,10);
+  background: linear-gradient(0deg, rgba(9,8,10,1) 0%, rgba(146,143,143,1) 0%, rgba(245,240,240,1) 96%, rgba(9,8,10,1) 100%);
+  width: 65%;
+  height: 30%;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  text-align: center;
+} 
+
+.prokemon h1{
+  letter-spacing: 3px;
+  color: #710c04;
+  font-weight: bold;
+}
+
+.prokemon .img-container{
+  height: 50%;
+  width: 100%;
+  display: inline;
+}
+
+.prokemon .img-container img{
+  background: rgba(255, 255, 255, 0.6); 
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.details{
+  display:flex;
+  background: rgb(9,8,10);
+  background: linear-gradient(0deg, rgba(9,8,10,1) 0%, rgba(146,143,143,1) 0%, rgba(245,240,240,1) 96%, rgba(9,8,10,1) 100%);
+  width: 65%;
+  height: 15%;
+  border-radius: 20px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  padding: 1rem;
+  text-align: center;
+  margin : 1em 0 0;
+}
+h3  {
+ background-color: #710c04;
+ color: transparent;
+ text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+ -webkit-background-clip: text;
+    -moz-background-clip: text;
+         background-clip: text;
+  border: 1px solid transparent;
+  margin: auto;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+}
+.technique{
+margin-top: 2.5%;
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+background: rgb(9,8,10);
+background: linear-gradient(0deg, rgba(9,8,10,1) 0%, rgba(146,143,143,1) 0%, rgba(245,240,240,1) 96%, rgba(9,8,10,1) 100%);
+width: 65%;
+height: 50%;
+border-radius: 20px;
+box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+padding: 20px;
+text-align: center;
+margin-bottom: 3%;
+}
+.technique:hover,
+.prokemon:hover,
+.details:hover{
+  background-color: #b42c2e;
+  box-shadow: inset 0 0 60px 5px #300204,
+    3px 3px 5px 0 #ccc;
+}
+h4{
+  background-color: #710c04;
+  color: transparent;
+  text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+   border: 1px solid transparent;
+   margin: auto;
+   border-radius:10px;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+}
+
+.technique .abilities{
+  display: flex;
+  justify-content: space-between;
+  
+}
+ .self{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.weapon, .duo{
+  display: flex;
+  justify-content: center;
+}
+.knife, .skull, .heart{
+  margin-right: 1rem;
+}
+.heart{
+  margin-left: 1rem;
+}
+
+footer{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+  width: 85%;
+  height: 25%;
+  margin-bottom: 5%;
+}
+
+button{
+  width: 12rem;
+  height: 6rem;
+  background-color: #b42c2e;
+  box-shadow: inset 0 0 60px 5px #300204,
+  3px 3px 5px 0 #ccc;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+}
+button:hover{
+  background-color: #fff;
+  box-shadow: inset 0 0 35px #ccbfa3,
+    3px 3px 5px 0 #ccc;
+}
+button img{
+  width: 5rem;
+  background: transparent;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  -webkit-border-radius:20px;
+}
+
+@media screen and(max-width: 768) {
+   .duo{
+    display: flex;
+    flex-direction: column;
+  }
+}
